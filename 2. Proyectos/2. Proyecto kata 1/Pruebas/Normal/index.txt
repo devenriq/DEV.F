@@ -1,0 +1,24 @@
+        <div class="col-sm" style="width: 18rem;">
+          <img src="https://exhibit.utas.edu.au/files/large/7afb9e8c56220f9f0abb4044db8d314d74ebc807.jpg"
+            class="card-img-top rounded-3" style="height: 70%;" alt="...">
+          <div class="d-inline-flex flex-row">
+            <img src="https://i.pinimg.com/originals/b2/4a/fd/b24afd600f204296d86e8533e24c9c1b.jpg" alt=""
+              class="card-img-top rounded-circle" style="width: 50px;">
+            <p class="card-text align-middle m-3 img-fluid">Ana Carenina</p>
+          </div>
+        </div>
+      </div>
+      <div class=''>
+        <div class="col-sm" style="width: 18rem;">
+          <img src="https://exhibit.utas.edu.au/files/large/7afb9e8c56220f9f0abb4044db8d314d74ebc807.jpg"
+            class="card-img-top rounded-3" style="height: 70%;" alt="...">
+          <div class="d-inline-flex flex-row">
+            <img src="https://i.pinimg.com/originals/b2/4a/fd/b24afd600f204296d86e8533e24c9c1b.jpg" alt=""
+              class="card-img-top rounded-circle" style="width: 50px;">
+            <p class="card-text align-middle m-3 img-fluid">Ana Carenina</p>
+          </div>
+        </div>
+      </div>
+
+
+

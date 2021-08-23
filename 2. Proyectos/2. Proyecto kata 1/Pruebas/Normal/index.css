@@ -1,0 +1,33 @@
+* {
+  margin : 0;
+  padding: 0;
+  border: outset;
+}
+
+p {
+  color: white;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 600;
+}
+
+.cards {
+  border: 2px solid red ;
+  border-radius: 20px;
+
+  background-color: blue;
+ 
+  
+}
+
+.container1 {
+  border: 2px solid green outset;
+  margin: auto;
+  width: 93%;
+  height: 40vw;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+
+}

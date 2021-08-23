@@ -1,0 +1,31 @@
+body {
+  display: flex;
+}
+
+.personal-zone {
+  border: 2px solid green;
+  float: right;
+}
+
+.search {
+  border: 2px solid red;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+#search-bar {
+  width: 100%;
+  border-radius: 1rem;
+  display: block;
+  margin: 30px auto;
+}
+
+#logo {
+  position: relative;
+  align-items: center;
+}
+
+#search-button #lucky-button {
+  border-radius: 1rem;
+}

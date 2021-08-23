@@ -1,0 +1,15 @@
+$font-family-sans-serif: 'Barlow Semi Condensed', sans-serif;
+$primary:#733FC8;
+$success: #49556B;
+$dark: #18202D;
+$secondary: #EDF2F8;
+
+.d-flex img {
+  width: 50px;
+}
+
+.fondo-card {
+  background-image: url('../images')
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";

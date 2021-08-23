@@ -1,0 +1,7 @@
+/* celulares */
+
+@media(min-width: 576px) {
+  body{
+    background: yellow;
+  }
+}

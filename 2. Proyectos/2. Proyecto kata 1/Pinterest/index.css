@@ -1,0 +1,76 @@
+* {
+  margin : 0;
+  padding: 0;
+  border: hidden;
+}
+
+/* navigation */
+
+.container-navbar__navigation {
+  width: 100%;
+  border: solid 2px blue;
+}
+
+.navigation-content {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  border: solid 2px green;
+  width: 180%;
+  height: 40px;
+}
+
+.navigation-form {
+  display: flex;
+  border: solid 2px lightcoral;
+  width: 100%;
+}
+
+.navigation-button {
+  border-radius: 40px;
+  height: 100%;
+  width: 5%;
+  color: white;
+  background-color: black;
+}
+
+.navigation-bar {
+  border-radius: 40px;
+  width: 100%;
+  background-color: silver;
+}
+
+.navigation-images__notification {
+  border: solid 1px ;
+  width: 2%;
+}
+
+/* cards */
+
+.container-card {
+  border: solid 2px red;
+  width: 14%;
+  height: 20%;
+}
+
+.user-post {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.user-info {
+  display: flex;
+
+  flex-direction: row;
+}
+
+.profile-picture {
+  border: solid 2px red;
+  width: 20%;
+  border-radius: 50%;
+}
+
+.user-info__name {
+  border: solid 2px green;
+}
+

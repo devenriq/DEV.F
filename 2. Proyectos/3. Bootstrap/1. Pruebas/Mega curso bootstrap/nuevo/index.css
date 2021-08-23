@@ -1,0 +1,13 @@
+/* .cont1 {
+  border: 1px solid #000;
+  background: #Fafafa;
+} */
+
+.estiloFila {
+  height: 220px;
+  background: #Fafafa;
+}
+
+.estiloColumna {
+  border: 1px solid #000;
+}

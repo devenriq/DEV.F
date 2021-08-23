@@ -1,0 +1,40 @@
+﻿Question;Answer;N°
+What is a statement?;A group of words, numbers and operators tat performs a specific task;1
+What are variables?;Variables are like boxes which can store any stuff in;2
+What is a literal value expresion?;A value that stands alone without being stored in a variable;3
+What are =, *, +,  -, / and %?;Those are operators;4
+What are programs?;Collections of many such statements, which together describe all steps that it takes to perform your program's purpose;5
+What is an expression?;Is any reference to a variable or value, or a set of variables and values combined with operators;6
+How many expressions has this expression?;;7
+What is a general expression?;An expression that stands alone, such as the follow;8
+How do those collections of programming statements tell the computer what to do?;The program needs to be executed, also referred to as running the program;9
+There are two types of translation of the code:;compiled and interpreted;10
+What is the compilation way?;when the program runs later, whta's running is actually the already compiled computer instructions ready to go;11
+What is the interpreted way?;That means the translation of commands is done from top to bottom, line by line every time the program is run;12
+What does JS? Is it compiled or interpred?;JS compiles the program and inmediatly runs the compiled code;13
+How do you create a variable?;"Declaring it, like a = 2;";14
+List the most common operators in JS;"Assigment
+Math
+Compound assignment
+increment/decrement
+Object property access
+Equality
+Comparison
+Logical";15
+Assigment example;;16
+Math example;;17
+Compound assigment example;;18
+Increment / decrement example;;19
+Object property access example;;20
+Equality;;21
+Comparison example;;22
+Logical example;;23
+What are the types in JS?;Types are the representations of the values ;24
+Name some types;"Numbers
+Strings
+Booleans
+Objects
+Arrays";25
+What's the name of converting between types in JS?;Coercion;26
+How do you coerce?;With built-in functions like :;27
+What happend when you make a comparisson with loose-equals between a number and a string?;JS coerce the string and transforme it into a number;28
