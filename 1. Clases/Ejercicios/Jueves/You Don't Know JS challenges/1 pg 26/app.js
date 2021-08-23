@@ -10,15 +10,49 @@
 
 // • Bonus Challenge: Try to incorporate input into this program, perhaps with the prompt(..) covered in “Input” on page 6. You may prompt the user for their bank account balance, for example. Have fun and be creative!
 
-let bankAmount = prompt('How much do you have in yout bank account?');
+let bankAmount = 1000;
+
+// prompt('Hi! Please, insert the amount you have to buy.');
+let totalCost = 0;
+let totalPhones = 0;
+let totalAccesories = 0;
+
 const spendingThreshold = 1/2 * bankAmount;
-const phonePrice = 99.99;
-const phoneAccesory = 9.99;
+const phonePrice = 239.99;
+const phoneAccesory = 20.99;
 const taxRate = 0.18;
 
+// taxes
+function taxPrice(total){
+  return total + (total * taxRate);
+}
 
-function printAmount(amt) {
-  for (let i = 0; amt < spendingThreshold; i++){
+// formating
+function formatDolar (total){
+  return '$' + total.toFixed(2);
+}
 
+// initial bank amount
+console.log(`Your initial bank amount is ${bankAmount}`)
+
+// buying
+
+while((totalCost < bankAmount) && (totalCost < spendingThreshold)) {
+  totalCost += taxPrice(phonePrice);
+  totalPhones = totalPhones + 1;
+
+  if(totalCost < spendingThreshold){
+    totalCost += taxPrice(phoneAccesory);
+    totalAccesories = totalAccesories +1 ;
   }
 }
+
+// update balance
+bankAmount += totalCost;
+
+// printing
+
+console.log(`The total amount of the phones is: ${totalPhones}`)
+console.log(`The total amount of the accesories is: ${totalAccesories}`)
+console.log(`The total cost of your purcharse is: ${totalCost}`)
+console.log(`Thanks for buying with us!`)
