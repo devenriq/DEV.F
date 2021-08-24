@@ -10,9 +10,7 @@
 
 // • Bonus Challenge: Try to incorporate input into this program, perhaps with the prompt(..) covered in “Input” on page 6. You may prompt the user for their bank account balance, for example. Have fun and be creative!
 
-let bankAmount = 1000;
-
-// prompt('Hi! Please, insert the amount you have to buy.');
+let bankAmount = prompt('Hi! Please, insert the amount you have to buy.');
 let totalCost = 0;
 let totalPhones = 0;
 let totalAccesories = 0;
