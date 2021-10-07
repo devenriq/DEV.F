@@ -56,6 +56,3 @@ function vuelta(arr){
 console.log(ida(camino));
 console.log(vuelta(camino))
 
-
-
-
