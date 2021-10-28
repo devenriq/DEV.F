@@ -1,3 +1,13 @@
+:root {
+  --light-red: #D30A40;
+  --dark-red: #90052A;
+  --light-blue: #15E9F6;
+  --dark-red-light: #B5010E;
+  --yellow-light: #E2EE5D;
+  --green-light: #A8F44E;
+  --green-screen: #5FC480;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -12,14 +22,9 @@
   padding: 0;
 }
 
-:root {
-  --light-red: #D30A40;
-  --dark-red: #90052A;
-}
 
 
 body {
-  background-color: var(--dark-red);
   display: flex;
   width: 100%;
   height: 100vh;
@@ -28,43 +33,197 @@ body {
 }
 
 .pokedex {
+  border-radius: 40px 0 0 40px;
   display: flex;
-  width: 70%;
+  width: 80%;
   height: 90vh;
-  background-color: var(--light-red);
+  background-color: var(--dark-red);
 }
 
 .left-side{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
   width: 50%;
   height: 100vh;
+  align-items: flex-end;
 }
 
 .left-side__header {
-  background-color: blue;
-  width: 100%;
+  width: 95%;
+  background-color: var(--light-red);
   height: 20vh;
+  justify-content: flex-end;
+  border-radius: 30px 0 0 0;
+}
+
+.header-lights {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.blue-button__white-border {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.blue-button__blue-color{
+  width: 80px;
+  height: 80px;
+  background-color: var(--light-blue);
+  border-radius: 100%;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.header__buttons {
+  padding: 5px;
+}
+
+.buttons__red {
+  width: 20px;
+  height: 20px;
+  background-color: var(--dark-red-light);
+  border-radius: 100%;
+}
+
+.buttons__yellow {
+  width: 20px;
+  height: 20px;
+  background-color: var(--yellow-light);
+  border-radius: 100%;
+}
+
+.buttons__green{
+  width: 20px;
+  height: 20px;
+  background-color: var(--green-light);
+  border-radius: 100%;
+}
+
+.light__buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 0;
 }
 
 .left-side__poke-screen{
-  width: 100%;
-  height: 55vh;
-  background-color: green;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: var(--light-red);
+  width: 95%;
+  height: 45vh;
 }
 
+.poke-screen__display {
+  width: 90%;
+  height: 350px;
+  background-color: #E3E3E3;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: black 1px solid;
+  box-shadow: -5px 5px 0 0 #7D7C7C;
+}
+
+.display__image{
+  background-color: white;
+  width: 88%;
+  height: 80%;
+  border-radius: 15px;
+  border: black 1px solid;
+}
+
+
 .left-side__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light-red);
+  width: 95%;
+  height: 23vh;
+  border-radius: 0px 0 0 30px;
+}
+
+.buttons__screen{
+  position: relative;
+  left: 19px;
+  width: 70%;
+  height: 80%;
+  background-color: var(--green-screen);
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: -5px 5px 0 0 #46915E inset;
+
+}
+
+.buttons__buttons{
+  width: 25%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttons__random{
+  background-color: #2C2C2C;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  box-shadow: -3px 3px 0 0 black ;
+  
+}
+
+.buttons__forward-backward{
   width: 100%;
-  height: 15vh;
-  background-color: yellow;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttons-backward{
+  width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent; 
+  border-right:20px solid #2C2C2C; 
+}
+
+
+.buttons-forward {
+  width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #2C2C2C;
 }
 
 .center-side {
-  
+  height: 90vh;
+  width: 8%;
+  background-color: var(--light-red);
+  border: black 1px solid
 }
 
 .right-side {
   position: relative;
-  top: 60px;
-  background-color: chartreuse;
-  height: 80vh;
+  top: 100px;
+  background-color: var(--light-red);
+  height: 75vh;
   width: 50%;
 }
+
